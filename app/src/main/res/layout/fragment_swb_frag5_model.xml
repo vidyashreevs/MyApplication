@@ -1,0 +1,727 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edisonbro.com.edisonbroautomation.SwbFrag5Model">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <!--
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.6"
+                android:orientation="vertical"
+                android:weightSum="8">
+
+            </LinearLayout>
+
+        -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            ----------------------------------
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.7"
+                android:orientation="vertical"
+                android:weightSum="11">
+
+
+                1
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3">
+
+                </LinearLayout>
+
+
+                2
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    2.1
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5">
+
+                    </LinearLayout>
+
+
+                    2.2
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2">
+
+                        <Button
+                            android:id="@+id/butonswitch_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="SWITCH BOARD" />
+
+                    </LinearLayout>
+
+
+                    2.3
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                3
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+
+                </LinearLayout>
+
+
+                4
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    4.1
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5">
+
+                    </LinearLayout>
+
+
+                    4.2
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:background="@mipmap/bulb01"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+
+                        4.2.1
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2"
+                            android:weightSum="5">
+
+                            <Button
+                                android:id="@+id/Allon"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@mipmap/all_on" />
+
+
+                            4.2.2
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+
+                        4.2.3
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.2">
+
+                            <Button
+                                android:id="@+id/Alloff"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@mipmap/all_off" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    4.3
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                5
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+
+
+                6
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.7"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+                    6.1
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.2">
+
+                    </LinearLayout>
+
+
+                    6.2
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.2">
+
+                        <Button
+                            android:id="@+id/Bulb1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@mipmap/bulb01" />
+
+                    </LinearLayout>
+
+
+                    6.3
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+
+                    6.4
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.2">
+
+                        <Button
+                            android:id="@+id/Bulb2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@mipmap/bulb02" />
+                    </LinearLayout>
+
+
+                    6.5
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+
+                    6.6
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.2">
+
+                        <Button
+                            android:id="@+id/Bulb3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@mipmap/bulb01" />
+                    </LinearLayout>
+
+
+                    6.7
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                7
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+
+
+                8
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+                    8.1
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.4">
+
+                    </LinearLayout>
+                    switch------------------------
+                    8.2
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.2"
+                        android:background="@mipmap/fan01"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.7">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.4"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.1">
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.8">
+
+                                <Button
+                                    android:id="@+id/fan"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:visibility="invisible" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.2">
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.8"
+                                android:orientation="vertical"
+                                android:weightSum="3">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.8">
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1.4">
+
+                                    <Button
+                                        android:id="@+id/fanincrese"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:background="@mipmap/speed_up01" />
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.9">
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.8"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.8">
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.8"
+                                android:orientation="vertical"
+                                android:weightSum="3">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3">
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="2.2">
+
+                                    <Button
+                                        android:id="@+id/fandecrese"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:background="@mipmap/speed_down01" />
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3">
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.8"
+                                android:orientation="vertical"
+                                android:weightSum="3">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3">
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="2.4">
+
+
+                                    <TextView
+                                        android:id="@+id/speedmeter"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                         />
+
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3">
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.6">
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    8.3
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.4">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                9
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+
+
+                10
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.7"
+                    android:orientation="horizontal"
+                    android:weightSum="7">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.2">
+
+                    </LinearLayout>
+
+
+                    6.2
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.2">
+
+                        <Button
+                            android:id="@+id/Bulb4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@mipmap/bulb01" />
+
+                    </LinearLayout>
+
+
+                    6.3
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+
+                    6.4
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.2">
+
+
+                    </LinearLayout>
+
+
+                    6.5
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+
+                    6.6
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.2">
+
+                        <Button
+                            android:id="@+id/Bulb5"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@mipmap/bulb01" />
+                    </LinearLayout>
+
+
+                    6.7
+
+
+                </LinearLayout>
+
+                11
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/Allon1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

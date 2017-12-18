@@ -1,0 +1,266 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"></LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.6"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:weightSum="0.7"
+                >
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:weightSum="2"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:weightSum="2"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2">
+                            <TextView
+                                android:textSize="@dimen/camera_config"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:gravity="center|left"
+                                android:text="Please enter the Bluetooth Mac-ID"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0"></LinearLayout>
+
+                    </LinearLayout >
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0">
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2dp"
+                        android:visibility="invisible"
+                        android:background="@android:color/darker_gray"/>
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.6"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.2"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.6">
+                        <EditText
+                            android:id="@+id/btMacId"
+                            style="@style/Textfonts"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:hint="00:00:00:00:X0:00"
+                            android:textSize="@dimen/camera_config"
+                            android:maxLength="17"
+                            android:maxLines="1"
+                            android:ems="10"
+                            android:imeOptions="actionDone"
+                            android:background="@drawable/add_device_mac_id"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.2"></LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"></LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.8">
+                        <Button
+                            android:id="@+id/cancel"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Cancel"
+                            android:textColor="#fff"
+                            android:textSize="@dimen/camera_btn"
+                            android:background="@drawable/add_device_button"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1"></LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.6"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.8">
+                        <Button
+                            android:id="@+id/submit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="Submit"
+                            android:textColor="#fff"
+                            android:textSize="@dimen/camera_btn"
+                            android:background="@drawable/add_device_button"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.1"></LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0"></LinearLayout>
+                <!-- <Button
+                     android:id="@+id/btok"
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+                     android:background="@drawable/cam_config_button"
+                     android:text="Home"/>
+
+                 <Button
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="1"
+
+                     android:visibility="invisible"/>
+
+                 <Button
+                     android:id="@+id/btcancel"
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:text="Yes"
+                     android:background="@drawable/cam_config_button"
+                     android:layout_weight="1"/>-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"></LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

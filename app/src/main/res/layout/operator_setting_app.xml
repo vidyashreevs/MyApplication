@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="#4282D0"
+        >
+
+        1
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+        </LinearLayout>
+        --------------------
+        2
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <Button
+                    android:id="@+id/btnback"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/back" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+            </LinearLayout>
+
+        </LinearLayout>
+        ----------------
+        3
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+        </LinearLayout>
+
+        4
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="7">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center|left"
+                android:text="Operator Settings"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/addhome_text" />
+        </LinearLayout>
+
+
+
+        6
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.55"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:id="@+id/btnconstatus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/not_connected" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        7
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1">
+
+        </LinearLayout>
+
+        8
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.55"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:id="@+id/btnsignal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/signal_0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        9
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1">
+
+        </LinearLayout>
+
+        10
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.55"
+
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:id="@+id/btnhome"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/home" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        11
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4">
+
+        </LinearLayout>
+
+
+        end
+    </LinearLayout>
+    !!!!
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:paddingLeft="22dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <RadioButton
+                android:text="   IP Settings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:button="@drawable/radio_click_background"
+                android:id="@+id/rb_ipsettings"
+                android:textSize="@dimen/operator_set_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+
+                <RadioButton
+                    android:text="   User Settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:button="@drawable/radio_click_background"
+                    android:id="@+id/rb_usersettings"
+                    android:textSize="@dimen/operator_set_text"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.05">
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"></LinearLayout>
+                <Button
+                    android:text="AddUser"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnadduser"
+                    android:background="@drawable/display_button"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/operator_set_buttontxt"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1"></LinearLayout>
+                <Button
+                    android:text="EditUser"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/display_button"
+                    android:id="@+id/btnedituser"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/operator_set_buttontxt"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1"></LinearLayout>
+                <Button
+                    android:text="DeleteUser"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/display_button"
+                    android:id="@+id/btndeleteuser"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/operator_set_buttontxt"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.6"></LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.05">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.28">
+
+            <RadioButton
+                android:text="   Configuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/radio_click_background"
+                android:id="@+id/rb_configsettings"
+                android:textSize="@dimen/operator_set_text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.0"/>
+            <TextView
+                android:text="             (Add/Edit Device, Settings Upload/Download)"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:gravity="top"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/operator_set_subtext"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <RadioButton
+                android:id="@+id/rb_irsettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/radio_click_background"
+                android:text="   IR Configuration"
+                android:textSize="@dimen/operator_set_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <RadioButton
+                android:text="   Server Settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/radio_click_background"
+                android:id="@+id/rb_serversettings"
+                android:textSize="@dimen/operator_set_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
